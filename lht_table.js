@@ -31,6 +31,7 @@ for(var i = 0; i < eventDates.length; i++){
    }
    
 }
+//Closes the table element 
 tableHTML += "</table>";
-
+//Displays the table 
 document.getElementById("eventList").innerHTML = tableHTML;
